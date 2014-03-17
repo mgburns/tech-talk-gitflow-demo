@@ -39,9 +39,6 @@ Branching workflow for development.  Utilizes the following branches:
 * Release branches are branched off of `develop` and merged back into `develop` as well as `master`
 
 ## Demo - BU Navigation Plugin
-https://github.com/bu-ist/bu-navigation
-
-**Instructions**: https://github.com/mgburns/tech-talk-gitflow
 
 ### Background
 
@@ -78,3 +75,4 @@ https://github.com/bu-ist/bu-navigation/pull/4
 
 ### Show them how Github commenting + Git Flow provides a good workflow for code reviews
 https://github.com/bu-ist/bu-slideshow/pull/2
+
