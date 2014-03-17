@@ -1,0 +1,6 @@
+[submodule "plugins/bu-navigation-feature"]
+	path = plugins/bu-navigation-feature
+	url = git@github.com:mgburns/bu-navigation-feature-demo
+[submodule "plugins/bu-navigation-hotfix"]
+	path = plugins/bu-navigation-hotfix
+	url = git@github.com:mgburns/bu-navigation-hotfix-demo
