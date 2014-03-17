@@ -20,23 +20,23 @@ http://nvie.com/posts/a-successful-git-branching-model/
 
 Branching workflow for development.  Utilizes the following branches:
 
-    * `master`
-    * `develop`
-    * `feature/*`
-    * `hotfix/*`
-    * `release/*` (which we won’t discuss today, but should mention)
+* `master`
+* `develop`
+* `feature/*`
+* `hotfix/*`
+* `release/*` (which we won’t discuss today, but should mention)
 
 ### Key points
 
-    * The `master` branch should be stable releases
-    * Each commit to `master` gets a dedicated tag (e.g. `1.1`)
-    * The `develop` branch should be integration branch for features / bug fixes, staging area for next release
-    * All feature development takes place in `feature` branches (e.g. `feature/private-posts`)
-    * Feature branches are branched off of and merged back into `develop`
-    * All hot fixes take place in dedicated `hotfix` branches
-    * Hotfixes branch of `master`, merge back in to `master` (with tag!) and `develop`
-    * All releases are staged in dedicated `release/` branches (e.g. `release/1.1`)
-    * Release branches are branched off of `develop` and merged back into `develop` as well as `master`
+* The `master` branch should be stable releases
+* Each commit to `master` gets a dedicated tag (e.g. `1.1`)
+* The `develop` branch should be integration branch for features / bug fixes, staging area for next release
+* All feature development takes place in `feature` branches (e.g. `feature/private-posts`)
+* Feature branches are branched off of and merged back into `develop`
+* All hot fixes take place in dedicated `hotfix` branches
+* Hotfixes branch of `master`, merge back in to `master` (with tag!) and `develop`
+* All releases are staged in dedicated `release/` branches (e.g. `release/1.1`)
+* Release branches are branched off of `develop` and merged back into `develop` as well as `master`
 
 ## Demo - BU Navigation Plugin
 https://github.com/bu-ist/bu-navigation
