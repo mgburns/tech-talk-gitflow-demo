@@ -7,7 +7,7 @@ This directory contains files for use demonstrating Git Flow in action with the 
 * To demonstrate the use of "hotfix" branches by fixing a bug with navigation links.
 * To demonstrate the use of "feature" branches by adding support for "Private" posts in administrative navigation views.
 
-Both have already been implemented in the [official repository](https://github.com/bu-ist/bu-navigation). This directory contains modified versions of the plugin repository which have been `git reset --hard` to earlier commits for the purpose of this presentation.
+Both have already been implemented in the [official repository](https://github.com/bu-ist/bu-navigation). This repository contains two modified versions of the plugin (as submodules) which have been `git reset --hard` to earlier commits for the purpose of this presentation.
 
 ### Plugin Versions
 
@@ -160,3 +160,4 @@ $ git commit
 # Delete the reintegrated branch
 $ git branch -d feature/private-posts
 ```
+
